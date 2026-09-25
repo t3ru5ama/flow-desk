@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+
+# Env secrets (commit .env.example only)
+.env
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Uploaded files (keep the directory, not its contents)
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
